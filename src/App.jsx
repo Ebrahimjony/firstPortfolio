@@ -20,29 +20,39 @@ export default function App() {
     "MongoDB",
     "PHP dataBase",
     "Docker",
+    "JWT Token",
+    "Firebase Authentication",
     "GitHub",
   ];
 
   const projects = [
     {
       name: "e-Commerce Restaurant service",
-      desc: "This Project for online Restaurant Service this website Customer, Owner. customer registration & than order menu, payment,food delivery. admin has full control of this. use React JS, Material UI, ES6, Node JS, Express js, Firebase for authentication, Mongo DB for Database",
+      desc: "This project is an Online Restaurant Service System that allows customers to conveniently order food through a web-based platform. Customers can register, browse restaurant menus, place food orders, make secure online payments, and receive food delivery at their location. Restaurant owners can manage menus, orders, and delivery operations, while the Admin has full control over the entire system, including user management, order monitoring, and platform maintenance.                                                                     The application is developed using React JS with Material UI and ES6 to ensure a modern, responsive, and user-friendly interface. The backend is built with Node.js and Express.js for efficient server-side processing. Firebase Authentication is used for secure user login and role-based access, and MongoDB is used as the database for reliable and scalable data storage.",
       tech: ["React", "Express", "MongoDB", "tailwind css"],
       github: "https://github.com/Ebrahimjony/Doctor-Client",
       live: "#",
     },
+    {        
+      name: "Pro-Frist Delivary Service",
+      desc:"This project is an Online Delivery Service System designed to facilitate fast and reliable product delivery between different locations. Customers can use the web application to register, browse services, and place delivery orders. The delivery personnel collect products from the specified location and deliver them to the intended recipient efficiently.                                    The system supports multiple user roles, including Customer, Delivery Personnel, Owner, and Admin. Customers and delivery agents can register, place and manage delivery orders, make payments, and track delivery status. The Admin has full control over the platform, including user management, order monitoring, and system operations.                                                             The application is developed using React JS with Material UI and ES6 for a modern and responsive user interface. The backend is built with Node.js and Express.js, ensuring secure and scalable server-side operations. Firebase Authentication is used for secure user login and role-based access control, while MongoDB is used for efficient data storage and management.",
+      tech: ["React", "Express", "MongoDB", "tailwind css"],
+      github: "https://github.com/Ebrahimjony/pro-first-Server",
+      live: "#",  
+    },
     {
       name: "Job Portal",
-      desc: " This Project for online Job Search in this website client. Users search  there favorite job. Admin has full control of this. use React JS,Node.js Express js.Firebase for authentication, Mongo DB for Database ",
+      desc: " This project is an Online Job Search Platform that helps users find their preferred jobs easily and efficiently. Users can register, search and browse job listings based on their interests, and view detailed job information through the website. The Admin has full control over the system, including managing job postings, users, and overall platform operations.                 The application is built using React JS for a fast and interactive user interface. The backend is developed with Node.js and Express.js to handle server-side logic and APIs efficiently. Firebase Authentication is used to ensure secure user registration and login, while MongoDB is used as the database for reliable and scalable data storage. ",
       tech: ["React", "Express", "MongoDB", "tailwind css"],
       github: "https://github.com/Ebrahimjony/Job-portal-client",
       live: "#",
     },
+
     {
       name: "Online Dentist Doctor Appointment",
-      desc: "This portfolio built with React and Tailwind CSS.",
+      desc: "This project is an Online Dentist Doctor Appointment System designed to make booking dental appointments simple and convenient. Patients can register, search for available dentists, view doctor profiles, and book appointments online based on available time slots. The system helps dentists manage their schedules and patient appointments efficiently, while the Admin has full control over doctors, patients, appointments, and overall system operations.             The application is developed using React JS for a smooth and responsive user interface. The backend is built with Node.js and Express.js to handle appointment management and secure data processing. Firebase Authentication ensures safe user login and access control, and MongoDB is used as the database for storing patient, doctor, and appointment information.",
       tech: ["React", "Tailwind"],
-      github: "https://github.com/EbrahimJony/portfolio",
+      github: "https://github.com/Ebrahimjony/Doctor-Client",
       live: "#",
     },
   ];
